@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  START-HEADER-SECTION */
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images-folder/traval.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/*  Text inside header */
+.header-text {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/*  Title area (icon + heading) */
+.title-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*  Icon beside heading */
+.img-1 {
+  height: 50px;
+  width: 50px;
+}
+
+/* Subheading text */
+.head {
+  font-size: 18px;
+  color: #e0f7fa;
+}
+
+/*  Content section below header */
+section {
+  margin: 80px auto;
+  line-height: 1.6;
+  font-size: 18px;
+  color:black;
+  text-shadow: 2px 2px 4px rgb(202, 47, 47) ;
+background-color: rgba(244, 47, 86, 0.905);
+}
+.para-1{ 
+  width: 800px;
+  text-align: center; 
+  margin: 0 auto; 
+  font-size: 25px;
+}
+.ol-1{
+  margin: 10px 20px;
+  display: inline;
+}
+.ol-2{
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0px 40px;
+  display: inline;
+}.ol-2 li::marker {
+  color: rgba(255, 0, 0, 0.482);
+}
+.img-3{
+  margin: -1px 0px;
+}
+.name-image{
+  font-size: 22px;
+  margin-left: 100px;
+  color:cyan;
+   text-shadow: 2px 2px 4px black;
+}
+.img-2{
+    margin: -1px 0px;
+
+}
+/* .img-2>img{
+height: 260px;
+} */
+/* .links-1{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row; */
+/* } */
+.links-1 ul {
+  list-style: none;         /* bullet points hatata hai */
+  display: flex;            /* items ko row me laata hai */
+  justify-content: center;  /* beech me align karta hai */
+  gap: 40px;                /* links ke darmiyan thoda space */
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.links-1 a {
+  text-decoration: none;    /* underline hatata hai */
+  color: black;             /* link ka color set */
+  font-weight: bold;
+}
+
+.links-1 a:hover {
+  color: blue;              /* hover effect */
+}
+/* .flex-2{
+  display: flex;
+  flex-direction: row;
+} */
+/* .flex-3{
+   display: flex;
+  flex-direction: row;
+}
+ */ .flex-3 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      text-align:  left;
+      gap: 50px;
+      flex-wrap: wrap;
+    }
+    .flex-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-top: 40px;
+      gap: 10px;
+    }
+    .trip-images {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 10px;
+    }.flex-2 h1 {
+      margin-bottom: 15px;
+    }
+    .img-3 img,
+    .img-2 img {
+      width: 350px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    .travel-h1{
+      text-align: center;
+    }
+    .faisal-mosque{
+      margin-top: -12px;
+ font-size: 15px;
+  margin-left: 100px;
+  color:cyan;
+   text-shadow: 2px 2px 4px black;
+    }
+.Faisal{
+  margin-top: -12px;
+  height: 250px;
+  width: 350px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+}
+/* .faisalimg { 
+      width: 350px;
+      height: 250px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+
+ } */
